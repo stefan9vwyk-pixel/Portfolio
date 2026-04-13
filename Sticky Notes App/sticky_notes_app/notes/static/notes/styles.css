@@ -1,0 +1,57 @@
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    background-color: #FFDD99;
+}
+
+header {
+    background-color: #FFA15E;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sticky-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sticky-note {
+    background-color: #ffeb3b; 
+    width: 200px;
+    min-height: 200px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s;
+    font-family: 'Permanent Marker', cursive; 
+}
+
+/* Give them a slight random-looking tilt */
+.sticky-note:nth-child(even) {
+    transform: rotate(2deg);
+}
+.sticky-note:nth-child(odd) {
+    transform: rotate(-2deg);
+}
+
+/* Lift note slightly when hovering */
+.sticky-note:hover {
+    transform: scale(1.05) rotate(0deg);
+    z-index: 10;
+}
+
+footer {
+    background-color: #FFA15E;
+    padding: white;
+    text-align: center;
+}

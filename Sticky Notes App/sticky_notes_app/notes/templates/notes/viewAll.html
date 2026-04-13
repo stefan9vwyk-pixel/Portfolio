@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+<!--prettierignore-->
+{% block title %} Sticky Notes - {{ page_title }} {% endblock title %}
+<!--prettierignore-->
+{% block content %}
+  <h2>{{ page_title }}</h2>
+  <ul>
+    <a href="{% url 'createNote' %}">Add sticky note</a>
+    <div class="sticky-container">
+      {% for note in notes %}
+      <li class="sticky-note">
+        <a href="{% url 'note_detail' pk=note.pk %}">{{ note.title }}</a>
+        <p>{{ note.content }}</p>
+      </li>
+      {% endfor %}
+  </ul>
+{% endblock content %}

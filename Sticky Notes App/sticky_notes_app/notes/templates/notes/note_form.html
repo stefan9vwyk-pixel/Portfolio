@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %}
+    Sticky Note -
+    {% if form.instance.pk %}
+        Edit
+    {% else %}
+        Create
+    {% endif %}
+    Note
+{% endblock title %}
+{% block content %}
+    <h2>
+        {% if form.instance.pk %}
+            Edit
+        {% else %}
+            Create
+        {% endif %}
+        Note
+    </h2>
+    <form method="POST"
+          action="{% if form.instance.pk %}
+                    {% url 'updateNote' pk=form.instance.pk %}
+                  {% else %}
+                    {% url 'createNote' %}
+                  {% endif %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">
+            Save
+        </button>
+    </form>
+    <a href="{% url 'viewAll' %}">Back to Sticky Note list</a>
+{% endblock content %}

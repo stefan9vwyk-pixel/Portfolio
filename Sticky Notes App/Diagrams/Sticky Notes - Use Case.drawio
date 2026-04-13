@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0">
+  <diagram id="8-3Pl4AciKGXKPs_9xXO" name="Page-1">
+    <mxGraphModel dx="1784" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="620" width="200" x="40" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-9" edge="1" parent="1" source="oVuXgWMcRUe4qA8Y6h5Q-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oVuXgWMcRUe4qA8Y6h5Q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-10" edge="1" parent="1" source="oVuXgWMcRUe4qA8Y6h5Q-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oVuXgWMcRUe4qA8Y6h5Q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-11" edge="1" parent="1" source="oVuXgWMcRUe4qA8Y6h5Q-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oVuXgWMcRUe4qA8Y6h5Q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-12" edge="1" parent="1" source="oVuXgWMcRUe4qA8Y6h5Q-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oVuXgWMcRUe4qA8Y6h5Q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
+          <mxGeometry height="160" width="80" x="-230" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sticky Notes app" vertex="1">
+          <mxGeometry height="30" width="140" x="70" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="View Notes" vertex="1">
+          <mxGeometry height="80" width="150" x="65" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Create Note" vertex="1">
+          <mxGeometry height="80" width="150" x="65" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Update Note" vertex="1">
+          <mxGeometry height="80" width="150" x="65" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oVuXgWMcRUe4qA8Y6h5Q-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Delete Note" vertex="1">
+          <mxGeometry height="80" width="150" x="65" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
