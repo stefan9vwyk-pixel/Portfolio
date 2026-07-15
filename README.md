@@ -1,2 +1,2 @@
 # Portfolio
-Combination of my work for job applications 
+Few Python projects that i have developed.
