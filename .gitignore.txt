@@ -1,2 +1,5 @@
+# Ignore local Postman desktop app data
 .postman/
+
+# Ignore local Postman collections/environments
 postman/
